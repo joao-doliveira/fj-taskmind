@@ -1,20 +1,10 @@
-# TaskMind (`fj-taskmind`)
+# TaskMind
 
-Personal task manager with an embedded AI assistant. MERN stack monorepo.
+Personal task manager with an embedded AI assistant.
 
-## Planning docs
+Implementation is in early setup — Cursor rules and skills only; application code not yet added. This README will grow as features land.
 
-Scope, phases, and checklists live in the journey repo:
+## Cursor
 
-- [TaskMind README](../fullstack-journey/projects/taskmind/README.md)
-- [Phase 0 plan](../fullstack-journey/projects/taskmind/phase-0.md)
-
-## Development workspace
-
-Open both repos in one Cursor window:
-
-```bash
-cursor ../fullstack-journey/fullstack-journey.code-workspace
-```
-
-Or **File → Open Workspace from File** and select `fullstack-journey.code-workspace` in the journey repo.
+- **Rules:** `.cursor/rules/`
+- **Skills:** `@fj-tm-execute-next-step`, `@fj-tm-review`, `@fj-tm-wrap-up`
